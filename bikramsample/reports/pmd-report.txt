@@ -1,0 +1,313 @@
+src/main/java/com/patterns/adaptor/ICarEvaluationAdaptor.java:14:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/adaptor/ICarEvaluationAdaptor.java:15:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/adaptor/ICarEvaluationAdaptor.java:15:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/ITest.java:12:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/adaptor/ITest.java:12:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptee.java:15:	Avoid excessively long variable names like carEvaluationAdaptor
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptee.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptee.java:15:	Private field 'carEvaluationAdaptor' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptee.java:24:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:17:	Avoid excessively long variable names like carEvaluatorServiceProxy
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:17:	Private field 'carEvaluatorServiceProxy' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:19:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:26:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:28:	Local variable 'carEvaluator' could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:32:	Avoid excessively long variable names like carEvaluatorSerice
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:32:	Local variable 'carEvaluatorSerice' could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:36:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:38:	System.out.println is used
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:42:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:42:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:42:	Parameter 'testVal' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:47:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/impl/CarEvaluationAdaptor.java:47:	Parameter 'testInt' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/CarEvaluatorService.java:14:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/adaptor/impl/CarEvaluatorService.java:14:	Document empty constructor
+src/main/java/com/patterns/adaptor/impl/CarEvaluatorService.java:17:	Parameter 'carEvaluator' is not assigned and could be declared final
+src/main/java/com/patterns/adaptor/impl/Test.java:12:	Each class should declare at least one constructor
+src/main/java/com/patterns/adaptor/impl/Test.java:17:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/impl/Test.java:22:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/adaptor/impl/Test.java:26:	JUnit 4 tests that execute tests should use the @Test annotation
+src/main/java/com/patterns/command/CarOrder.java:11:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/command/impl/CarBroker.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/command/impl/CarBroker.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/com/patterns/command/impl/CarBroker.java:20:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/command/impl/CarBroker.java:24:	Parameter 'carOrder' is not assigned and could be declared final
+src/main/java/com/patterns/command/impl/CarBroker.java:28:	Found 'UR'-anomaly for variable 'carOrder' (lines '28'-'30').
+src/main/java/com/patterns/command/impl/CarBroker.java:29:	Local variable 'carOrder' could be declared final
+src/main/java/com/patterns/command/impl/EnterpriseCarOrder.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/command/impl/EnterpriseCarOrder.java:15:	Private field 'carTraderData' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/command/impl/EnterpriseCarOrder.java:19:	Parameter 'carTraderData' is not assigned and could be declared final
+src/main/java/com/patterns/command/impl/RetailCarOrder.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/command/impl/RetailCarOrder.java:19:	Private field 'carTradeData' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/command/impl/RetailCarOrder.java:21:	Parameter 'carTradeData' is not assigned and could be declared final
+src/main/java/com/patterns/creational/abstractfactory/CarFactoryMaker.java:11:	Each class should declare at least one constructor
+src/main/java/com/patterns/creational/abstractfactory/CarFactoryMaker.java:12:	Parameter 'carType' is not assigned and could be declared final
+src/main/java/com/patterns/creational/abstractfactory/CarFactoryMaker.java:13:	Found 'DD'-anomaly for variable 'carData' (lines '13'-'15').
+src/main/java/com/patterns/creational/abstractfactory/CarFactoryMaker.java:13:	Found 'DD'-anomaly for variable 'carData' (lines '13'-'17').
+src/main/java/com/patterns/creational/abstractfactory/GeneralCarFactory.java:7:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/creational/abstractfactory/IMovebleAbstractFactory.java:14:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/creational/abstractfactory/IMovebleAbstractFactory.java:15:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:16:	Private field 'typeData' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:18:	Parameter 'typeData' is not assigned and could be declared final
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:23:	Found 'DD'-anomaly for variable 'carData' (lines '23'-'27').
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:23:	Found 'DD'-anomaly for variable 'carData' (lines '23'-'29').
+src/main/java/com/patterns/creational/abstractfactory/impl/MovebleAbstractFactory.java:26:	System.out.println is used
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCar.java:17:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCar.java:17:	Document empty constructor
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCar.java:17:	It is a good practice to call super() in a constructor
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCar.java:21:	Parameter 'installerList' is not assigned and could be declared final
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCarFactory.java:8:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCarFactory.java:14:	System.out.println is used
+src/main/java/com/patterns/creational/abstractfactory/impl/SedanCarFactory.java:15:	Local variable 'sedanCar' could be declared final
+src/main/java/com/patterns/creational/abstractfactory/impl/SportsCar.java:10:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/creational/abstractfactory/impl/SportsCar.java:10:	It is a good practice to call super() in a constructor
+src/main/java/com/patterns/creational/abstractfactory/impl/SportsCar.java:15:	Parameter 'installerList' is not assigned and could be declared final
+src/main/java/com/patterns/creational/abstractfactory/impl/SportsCarFactory.java:8:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:14:	Abstract classes should be named AbstractXXX
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:16:	Parameter 'carType' is not assigned and could be declared final
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:19:	Parameter 'carType' is not assigned and could be declared final
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:21:	System.out.println is used
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:22:	Avoid excessively long variable names like iMovebleAbstractFactory
+src/main/java/com/patterns/creational/builderpattern/CarBuilder.java:22:	Local variable 'iMovebleAbstractFactory' could be declared final
+src/main/java/com/patterns/creational/builderpattern/SedanCarBuilder.java:14:	Avoid unused local variables such as 'carData'.
+src/main/java/com/patterns/creational/builderpattern/SedanCarBuilder.java:14:	Found 'DU'-anomaly for variable 'carData' (lines '14'-'15').
+src/main/java/com/patterns/creational/builderpattern/SedanCarBuilder.java:14:	Local variable 'carData' could be declared final
+src/main/java/com/patterns/creational/singleton/Workshop.java:17:	Use block level rather than method level synchronization
+src/main/java/com/patterns/decorator/ICarDecorator.java:12:	Abstract classes should be named AbstractXXX
+src/main/java/com/patterns/decorator/ICarDecorator.java:14:	Avoid unused private fields such as 'carData'.
+src/main/java/com/patterns/decorator/ICarDecorator.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/decorator/ICarDecorator.java:14:	Perhaps 'carData' could be replaced by a local variable.
+src/main/java/com/patterns/decorator/ICarDecorator.java:14:	Private field 'carData' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/decorator/ICarDecorator.java:16:	It is a good practice to call super() in a constructor
+src/main/java/com/patterns/decorator/ICarDecorator.java:16:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/decorator/impl/SedanDecorator.java:18:	Avoid excessively long variable names like instanceSedanDecorator
+src/main/java/com/patterns/decorator/impl/SedanDecorator.java:18:	Avoid unused private fields such as 'instanceSedanDecorator'.
+src/main/java/com/patterns/decorator/impl/SedanDecorator.java:20:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/decorator/impl/SedanDecorator.java:44:	System.out.println is used
+src/main/java/com/patterns/decorator/impl/SedanDecorator.java:48:	Parameter 'installerList' is not assigned and could be declared final
+src/main/java/com/patterns/facade/IRetrieveCarDesignPartsFacade.java:16:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/facade/impl/RetrieveCarDesignPartsFacade.java:22:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/facade/impl/RetrieveCarDesignPartsFacade.java:31:	Avoid excessively long variable names like carDeisgnPartsList
+src/main/java/com/patterns/facade/impl/RetrieveCarDesignPartsFacade.java:31:	Local variable 'carDeisgnPartsList' could be declared final
+src/main/java/com/patterns/mediator/ITyrePressureCheckerDelegator.java:6:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:21:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:32:	Local variable 'loanDecision' could be declared final
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:33:	Consider simply returning the value vs storing it in local variable 'loanDecision'
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:46:	Parameter 'sourceParty' is not assigned and could be declared final
+src/main/java/com/patterns/mediator/impl/LoanMediator.java:51:	Parameter 'targetParty' is not assigned and could be declared final
+src/main/java/com/patterns/mediator/impl/TyrePressureCheckerDelegator.java:13:	Each class should declare at least one constructor
+src/main/java/com/patterns/mediator/impl/TyrePressureCheckerDelegator.java:19:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/mediator/impl/TyrePressureCheckerDelegator.java:21:	System.out.println is used
+src/main/java/com/patterns/model/AbstractCar.java:23:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/model/AbstractCar.java:23:	Document empty constructor
+src/main/java/com/patterns/model/AbstractCar.java:66:	System.out.println is used
+src/main/java/com/patterns/model/AbstractCar.java:67:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/patterns/model/AbstractCar.java:70:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/patterns/model/AbstractParty.java:22:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/model/AbstractParty.java:29:	Parameter 'partyType' is not assigned and could be declared final
+src/main/java/com/patterns/model/BankParty.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/model/BankParty.java:7:	Private field 'loanMediator' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/com/patterns/model/BankParty.java:9:	It is a good practice to call super() in a constructor
+src/main/java/com/patterns/model/BankParty.java:9:	Parameter 'loanMediator' is not assigned and could be declared final
+src/main/java/com/patterns/model/BankParty.java:18:	System.out.println is used
+src/main/java/com/patterns/model/BodyDesignParts.java:27:	Parameter 'designSpecType' is not assigned and could be declared final
+src/main/java/com/patterns/model/BodyDesignParts.java:35:	Parameter 'bodyDesignSpec' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarEvaluator.java:14:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarEvaluator.java:22:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarTrade.java:20:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/model/CarTrade.java:28:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarTrade.java:36:	Parameter 'carPrice' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarTrade.java:44:	Parameter 'carQuantity' is not assigned and could be declared final
+src/main/java/com/patterns/model/CarTrade.java:49:	System.out.println is used
+src/main/java/com/patterns/model/CarTrade.java:53:	System.out.println is used
+src/main/java/com/patterns/model/CustomerParty.java:11:	Parameter 'loanMediator' is not assigned and could be declared final
+src/main/java/com/patterns/model/CustomerParty.java:27:	System.out.println is used
+src/main/java/com/patterns/model/DesignParts.java:29:	Parameter 'designSpecType' is not assigned and could be declared final
+src/main/java/com/patterns/model/Ship.java:10:	Each class should declare at least one constructor
+src/main/java/com/patterns/proxy/CarEvaluatorSericeProxy.java:15:	Each class should declare at least one constructor
+src/main/java/com/patterns/proxy/CarEvaluatorSericeProxy.java:17:	Avoid excessively long variable names like carEvaluatorSerice
+src/main/java/com/patterns/proxy/CarEvaluatorSericeProxy.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/proxy/CarEvaluatorSericeProxy.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/com/patterns/proxy/CarEvaluatorSericeProxy.java:20:	In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:7:	Parameter 'realSubject' is not assigned and could be declared final
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:11:	Avoid variables with short names like m
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:11:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:11:	Parameter 'm' is not assigned and could be declared final
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:11:	Parameter 'proxy' is not assigned and could be declared final
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:12:	Found 'DD'-anomaly for variable 'result' (lines '12'-'14').
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:16:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/patterns/proxy/CarInvocationHandler.java:27:	Parameter 'realSubject' is not assigned and could be declared final
+src/main/java/com/patterns/strategy/ICarWashingProcessor.java:10:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:19:	Avoid excessively long variable names like tyrePressureCheckerDelegate
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:24:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:28:	System.out.println is used
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:34:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/patterns/strategy/impl/CarWashingStrategyImpl.java:35:	Local variable 'carData' could be declared final
+src/main/java/com/patterns/template/ACarAccessoriesAssembler.java:12:	Abstract classes should be named AbstractXXX
+src/main/java/com/patterns/template/ACarAccessoriesAssembler.java:14:	Avoid unused constructor parameters such as 'carData'.
+src/main/java/com/patterns/template/ACarAccessoriesAssembler.java:14:	Document empty constructor
+src/main/java/com/patterns/template/ACarAccessoriesAssembler.java:14:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/template/ACarAccessoriesAssembler.java:27:	System.out.println is used
+src/main/java/com/patterns/template/impl/SedanCarAccessoriesAssembler.java:18:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/template/impl/SedanCarAccessoriesAssembler.java:30:	System.out.println is used
+src/main/java/com/patterns/template/impl/SedanCarAccessoriesAssembler.java:39:	System.out.println is used
+src/main/java/com/patterns/visitor/CarDisplay.java:8:	Abstract classes should be named AbstractXXX
+src/main/java/com/patterns/visitor/CarDisplay.java:8:	Each class should declare at least one constructor
+src/main/java/com/patterns/visitor/CarDisplay.java:26:	Parameter 'carList' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/CarDisplay.java:38:	Parameter 'displayPlaceName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/ICarVisitor.java:15:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/visitor/ICarVisitor.java:16:	Avoid modifiers which are implied by the context
+src/main/java/com/patterns/visitor/impl/RallyDisplay.java:8:	It is a good practice to call super() in a constructor
+src/main/java/com/patterns/visitor/impl/RallyDisplay.java:8:	Parameter 'displayName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/RallyDisplay.java:13:	Parameter 'carVisitor' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:25:	Parameter 'visitorName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:30:	Parameter 'showroomDisplay' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:32:	System.out.println is used
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:34:	Local variable 'showroomCar' could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:40:	Parameter 'rallyDisplay' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:44:	Avoid unused method parameters such as 'visitorName'.
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:44:	Parameter 'carData' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:44:	Parameter 'visitorName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:46:	System.out.println is used
+src/main/java/com/patterns/visitor/impl/SedanCarVisitor.java:59:	Parameter 'visitorName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/ShowroomDisplay.java:8:	Parameter 'displayName' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/ShowroomDisplay.java:14:	Parameter 'carVisitor' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SportsCarVisitor.java:17:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/patterns/visitor/impl/SportsCarVisitor.java:24:	Parameter 'sCustomer' is not assigned and could be declared final
+src/main/java/com/patterns/visitor/impl/SportsCarVisitor.java:32:	Parameter 'rCustomer' is not assigned and could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:41:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/java/com/patterns/client/CarManufacturer.java:43:	Local variable 'sedanCarBuilder' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:45:	Local variable 'carWorkshop' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:47:	Local variable 'carData' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:50:	Local variable 'sedanCarDecorator' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:52:	Avoid excessively long variable names like retrieveCarDesignPartsFacade
+src/test/java/com/patterns/client/CarManufacturer.java:52:	Local variable 'retrieveCarDesignPartsFacade' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:53:	Local variable 'designPartsList' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:57:	Avoid excessively long variable names like sedanCarAccessoriesAssembler
+src/test/java/com/patterns/client/CarManufacturer.java:57:	Local variable 'sedanCarAccessoriesAssembler' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:60:	Avoid excessively long variable names like carWashingProcessor
+src/test/java/com/patterns/client/CarManufacturer.java:60:	Local variable 'carWashingProcessor' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:63:	Avoid excessively long variable names like carEvaluationAdaptee
+src/test/java/com/patterns/client/CarManufacturer.java:63:	Local variable 'carEvaluationAdaptee' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:66:	Local variable 'demoCar' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:68:	Local variable 'carBroker' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:69:	Local variable 'carTradeDataOne' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:71:	Local variable 'rCarOrder' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:73:	Local variable 'carTradeDataTwo' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:75:	Local variable 'eCarOrder' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:79:	Local variable 'sedanCarVisitor' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:80:	Local variable 'showroomDisplay' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:81:	Local variable 'carList' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:88:	Local variable 'loanMediator' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:89:	Local variable 'customerParty' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:90:	Local variable 'bankParty' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:95:	Parameter 'args' is not assigned and could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:96:	Local variable 'carManufacturer' could be declared final
+src/test/java/com/patterns/client/CarManufacturer.java:101:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/com/patterns/client/ClassAnalyzer.java:20:	The class 'ClassAnalyzer' has a Cyclomatic Complexity of 8 (Highest = 19).
+src/test/java/com/patterns/client/ClassAnalyzer.java:21:	Avoid excessively long variable names like interfaceMethodList
+src/test/java/com/patterns/client/ClassAnalyzer.java:24:	Found 'UR'-anomaly for variable 'dirName' (lines '24'-'37').
+src/test/java/com/patterns/client/ClassAnalyzer.java:24:	Found 'UR'-anomaly for variable 'dirName' (lines '24'-'37').
+src/test/java/com/patterns/client/ClassAnalyzer.java:24:	Parameter 'args' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:25:	Found 'DD'-anomaly for variable 'fOut' (lines '25'-'35').
+src/test/java/com/patterns/client/ClassAnalyzer.java:25:	Found 'DD'-anomaly for variable 'fOut' (lines '25'-'35').
+src/test/java/com/patterns/client/ClassAnalyzer.java:33:	Local variable 'dirNames' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:35:	Found 'DU'-anomaly for variable 'fOut' (lines '35'-'84').
+src/test/java/com/patterns/client/ClassAnalyzer.java:35:	Found 'DU'-anomaly for variable 'fOut' (lines '35'-'84').
+src/test/java/com/patterns/client/ClassAnalyzer.java:36:	Local variable 'dirName' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:37:	Avoid instantiating new objects inside loops
+src/test/java/com/patterns/client/ClassAnalyzer.java:37:	Found 'DU'-anomaly for variable 'matches' (lines '37'-'84').
+src/test/java/com/patterns/client/ClassAnalyzer.java:37:	Found 'DU'-anomaly for variable 'matches' (lines '37'-'84').
+src/test/java/com/patterns/client/ClassAnalyzer.java:37:	Local variable 'matches' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:38:	Parameter 'dir' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:38:	Parameter 'name' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:43:	Local variable 'fileLength' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:47:	Local variable 'fileName' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:49:	Local variable 'indexVal' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:56:	Local variable 'classObj' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:58:	Local variable 'className' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:60:	Local variable 'implClassName' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:62:	Local variable 'strArr' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:66:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/com/patterns/client/ClassAnalyzer.java:73:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/com/patterns/client/ClassAnalyzer.java:80:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/com/patterns/client/ClassAnalyzer.java:97:	Parameter 'className' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:98:	Local variable 'lastIndex' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:99:	Local variable 'newClassName' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:100:	Local variable 'implClassNameBuff' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:108:	Avoid variables with short names like s
+src/test/java/com/patterns/client/ClassAnalyzer.java:108:	Found 'UR'-anomaly for variable 'mbr' (lines '108'-'110').
+src/test/java/com/patterns/client/ClassAnalyzer.java:108:	Parameter 'mbrs' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:108:	Parameter 's' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:108:	Parameter 'typeData' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:109:	Local variable 'mbr' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:115:	Local variable 'paramTypes' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:116:	Local variable 'returnType' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:117:	Avoid instantiating new objects inside loops
+src/test/java/com/patterns/client/ClassAnalyzer.java:117:	Local variable 'mObj' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:119:	Local variable 'methodName' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:121:	Local variable 'indexVal' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:134:	Avoid using if statements without curly braces
+src/test/java/com/patterns/client/ClassAnalyzer.java:139:	Avoid variables with short names like c
+src/test/java/com/patterns/client/ClassAnalyzer.java:139:	Found 'UR'-anomaly for variable 'cls' (lines '139'-'143').
+src/test/java/com/patterns/client/ClassAnalyzer.java:139:	Parameter 'c' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:141:	Local variable 'clss' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:142:	Avoid using for statements without curly braces
+src/test/java/com/patterns/client/ClassAnalyzer.java:142:	Local variable 'cls' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:144:	Avoid using if statements without curly braces
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	Found 'UR'-anomaly for variable 'classMethod' (lines '149'-'201').
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	Found 'UR'-anomaly for variable 'classMethodData' (lines '149'-'207').
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	Parameter 'args' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	Parameter 'fOut' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	The method 'processClassData' has a Cyclomatic Complexity of 19.
+src/test/java/com/patterns/client/ClassAnalyzer.java:149:	The method processClassData() has an NPath complexity of 345
+src/test/java/com/patterns/client/ClassAnalyzer.java:152:	Avoid variables with short names like c
+src/test/java/com/patterns/client/ClassAnalyzer.java:155:	A switch statement does not contain a break
+src/test/java/com/patterns/client/ClassAnalyzer.java:175:	Found 'DU'-anomaly for variable 'c' (lines '175'-'229').
+src/test/java/com/patterns/client/ClassAnalyzer.java:179:	A switch statement does not contain a break
+src/test/java/com/patterns/client/ClassAnalyzer.java:198:	Local variable 'listSize' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:200:	Local variable 'classMethod' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:203:	Local variable 'listSizeData' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:205:	Found 'DD'-anomaly for variable 'matchVal' (lines '205'-'210').
+src/test/java/com/patterns/client/ClassAnalyzer.java:206:	Local variable 'classMethodData' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:210:	Found 'DD'-anomaly for variable 'matchVal' (lines '210'-'210').
+src/test/java/com/patterns/client/ClassAnalyzer.java:223:	Avoid empty catch blocks
+src/test/java/com/patterns/client/ClassAnalyzer.java:227:	Avoid printStackTrace(); use a logger call instead.
+src/test/java/com/patterns/client/ClassAnalyzer.java:234:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/patterns/client/ClassAnalyzer.java:235:	It is somewhat confusing to have a field name matching the declaring class name
+src/test/java/com/patterns/client/ClassAnalyzer.java:237:	Parameter 'methodObj' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:237:	Parameter 'parameterTypes' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:237:	The user-supplied array 'parameterTypes' is stored directly.
+src/test/java/com/patterns/client/ClassAnalyzer.java:238:	Parameter 'returnType' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:250:	Parameter 'methodObj' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:255:	Returning 'parameterTypes' may expose an internal array.
+src/test/java/com/patterns/client/ClassAnalyzer.java:258:	Parameter 'parameterTypes' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:258:	The user-supplied array 'parameterTypes' is stored directly.
+src/test/java/com/patterns/client/ClassAnalyzer.java:266:	Parameter 'returnType' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:272:	Found 'UR'-anomaly for variable 'paramType' (lines '272'-'291').
+src/test/java/com/patterns/client/ClassAnalyzer.java:272:	Found 'UR'-anomaly for variable 'paramTypeData' (lines '272'-'290').
+src/test/java/com/patterns/client/ClassAnalyzer.java:272:	Parameter 'objTwo' is not assigned and could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:274:	Local variable 'mObjTwo' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:275:	Found 'DD'-anomaly for variable 'compareValue' (lines '275'-'293').
+src/test/java/com/patterns/client/ClassAnalyzer.java:275:	Found 'DD'-anomaly for variable 'compareValue' (lines '275'-'296').
+src/test/java/com/patterns/client/ClassAnalyzer.java:275:	Found 'DD'-anomaly for variable 'compareValue' (lines '275'-'301').
+src/test/java/com/patterns/client/ClassAnalyzer.java:280:	A method should have only one exit point, and that should be the last statement in the method
+src/test/java/com/patterns/client/ClassAnalyzer.java:282:	Local variable 'parameterTypes' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:283:	Local variable 'paramLength' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:285:	Avoid if (x != y) ..; else ..;
+src/test/java/com/patterns/client/ClassAnalyzer.java:286:	Local variable 'paramType' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:287:	Avoid excessively long variable names like parameterTypesData
+src/test/java/com/patterns/client/ClassAnalyzer.java:287:	Local variable 'parameterTypesData' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:289:	Local variable 'paramTypeData' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:293:	Found 'DD'-anomaly for variable 'compareValue' (lines '293'-'301').
+src/test/java/com/patterns/client/ClassAnalyzer.java:296:	Found 'DD'-anomaly for variable 'compareValue' (lines '296'-'293').
+src/test/java/com/patterns/client/ClassAnalyzer.java:296:	Found 'DD'-anomaly for variable 'compareValue' (lines '296'-'296').
+src/test/java/com/patterns/client/ClassAnalyzer.java:304:	Local variable 'returnType' could be declared final
+src/test/java/com/patterns/client/ClassAnalyzer.java:305:	Local variable 'returnTypeData' could be declared final

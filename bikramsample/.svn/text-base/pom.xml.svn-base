@@ -1,0 +1,233 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>itmusings</groupId>
+  <artifactId>owiz</artifactId>
+  <name>Orchestration Wizard</name>
+  <version>0.0.2-SNAPSHOT</version>
+  <description>Orchestrates a chain of commands. </description>
+  <url>http://itmusings.com/owiz</url>
+  <organization>
+  	<name>ITMUSINGS</name>
+  	<url>http://itmusings.com</url>
+  </organization>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</testResource>
+		</testResources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<version>2.2</version>
+				<inherited>true</inherited>
+				<configuration>
+					<wtpversion>1.0</wtpversion>
+					<m2eclipse>true</m2eclipse>
+					<downloadSources>true</downloadSources>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.3</version>
+				<inherited>true</inherited>
+			</plugin>
+			<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.4.3</version>
+        <configuration>
+          <escapeString>\</escapeString>
+        </configuration>
+      </plugin>
+		</plugins>
+	</build>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<aggregate>true</aggregate>
+					<quiet>true</quiet>
+				</configuration>
+			</plugin>
+			<!-- The JavaNCSS (http://www.kclee.de/clemens/java/javancss) plugin compiles some simple statistics about your project's source code, including non-comment source statements (NCSS), number of methods, number of classes, and number of javadocs. At the per-method level, it also computes cyclomatic complexity statistics. The idea of this report is to give you some insight into the distribution of code throughout the project, along with the proportion of code that contains formal documentation (JavaDocs), so that you can tell identify any hot-spots (those in dire need of documentation of refactoring). -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>javancss-maven-plugin</artifactId>
+				<inherited>true</inherited>
+			</plugin>
+			<!-- JDepend (http://clarkware.com/software/JDepend.html) is a tool that produces design-quality metrics for your project. These metrics can help isolate potential architectural "smells" in your code, such as classes with cyclic dependencies, and give an indication of how well the project rates in terms of reusability, extensibility, maintainability, and other -abilities. -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jdepend-maven-plugin</artifactId>
+				<inherited>true</inherited>
+			</plugin>
+			<!-- Surefire is Maven's unit-testing framework, used to execute tests written with JUnit, TestNG, and other testing APIs. Correspondingly, the surefire-report plugin contains the report that formats unit test results for the project website. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.3</version>
+				<inherited>true</inherited>
+			</plugin>
+			<!-- JXR is a source-code cross-referencing API maintained by the Maven project. The JXR plugin renders your project's source code to XHTML, with links for each line number to allow direct referencing of your source code, and links from source file to source file, wherever a cross-reference exists. In addition, if you've configured your POM to include JavaDoc API documentation, each browsable source file rendered by JXR will contain a link the corresponding JavaDoc page. -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+				<inherited>true</inherited>
+			</plugin>
+			<!-- PMD (http://pmd.sourceforge.net) is a tool that performs static analysis on your source code. However, where Checkstyle looks for violations in the accepted code-style guidelines, PMD is more concerned with finding potential problems in the code that could eventually express themselves as bugs in the running product. In addition, the PMD plugin also provides a cut-and-paste detector (CPD) to detect duplicate code that could cause inconsistencies in your project (as one copy is modified but the other is not). -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<inherited>true</inherited>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>pmd</report>
+							<report>cpd</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+				<configuration>
+					<linkXref>true</linkXref>
+					<sourceEncoding>utf-8</sourceEncoding>
+					<minimumTokens>100</minimumTokens>
+					<targetJdk>1.5</targetJdk>
+					<excludes>
+						<exclude>**/generated/*.java</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+			
+
+			<!-- The Checkstyle plugin performs static code analysis, and generates a report of how well it adheres with predetermined code-style policies - using Checkstyle (http://checkstyle.sourceforge.net), of course. The single report that this plugin provides - checkstyle - links to Checkstyle in the Project Reports menu, and provides summary statistics about which rules were violated, how many times, and by which file(s). At the bottom of the report, it gives the line number for each rule violation. By default, it uses the Sun code-style guidelines. -->
+			<!-- plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<configLocation>
+						src/main/resources/checkstyle.xml
+					</configLocation>
+					<headerLocation>
+						src/main/resources/LICENSE.txt
+					</headerLocation>
+					<includeTestSourceDirectory>
+						true
+					</includeTestSourceDirectory>
+				</configuration>
+			</plugin -->
+
+			<!-- plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changes-plugin</artifactId>
+				<version>2.0-beta-2</version>
+				<inherited>true</inherited>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>changes-report</report>
+							<report>jira-report</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin -->
+
+			<!-- ChangeLog plugin -->
+			<!--   plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-changelog-plugin</artifactId>
+		        <reportSets>
+		          <reportSet>
+		            <id>dual-report</id>
+		            <configuration>
+		              <type>range</type>
+		              <range>30</range>
+		            </configuration>
+		            <reports>
+		              <report>changelog</report>
+		              <report>file-activity</report>
+		            </reports>
+		          </reportSet>
+		        </reportSets>
+	     	</plugin -->
+		</plugins>
+	</reporting>
+	<dependencies>
+	<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.11</version>
+	</dependency>
+	<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+	</dependency>
+	<dependency>
+			<groupId>commons-digester</groupId>
+			<artifactId>commons-digester</artifactId>
+			<version>2.0</version>
+	</dependency>
+	<dependency>
+			<groupId>ognl</groupId>
+			<artifactId>ognl</artifactId>
+			<version>3.0</version>
+	</dependency>
+	<dependency>
+    <groupId>javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.0</version>
+	</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>sourceforge</id>
+			<url>http://oss.sonatype.org/content/groups/sourceforge/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>objectweb (for asm)</id>
+			<url>http://maven.objectweb.org/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+</project>
